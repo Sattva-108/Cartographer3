@@ -756,7 +756,7 @@ function Cartographer3.Utils.ReadjustCamera()
 			poi:Resize()
 		end
 	end
-	Cartographer3_Data_scrollFrame:SetHorizontalScroll(-(Cartographer3_Data_mapView:GetWidth() - Cartographer3_Data_scrollFrame:GetWidth()/Cartographer3_Data.cameraZoom) / 2 - Cartographer3_Data.cameraX)
+	Cartographer3_Data_scrollFrame:SetHorizontalScroll((Cartographer3_Data_mapView:GetWidth() - Cartographer3_Data_scrollFrame:GetWidth()/Cartographer3_Data.cameraZoom) / 2 + Cartographer3_Data.cameraX)
 	Cartographer3_Data_scrollFrame:SetVerticalScroll((Cartographer3_Data_mapView:GetHeight() - Cartographer3_Data_scrollFrame:GetHeight()/Cartographer3_Data.cameraZoom) / 2 - Cartographer3_Data.cameraY)
 end
 
