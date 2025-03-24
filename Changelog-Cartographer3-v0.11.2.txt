@@ -1,0 +1,12 @@
+tag v0.11.2
+a968a794977b711f6e00fea75a735e4ed2776820
+Cameron Knight <ckknight@ckknight-laptop.local>
+2009-08-05 11:57:02 -0500
+
+Tagging as v0.11.2
+
+
+--------------------
+
+Cameron Knight:
+	- GetDifficultyColor => GetQuestDifficultyColor

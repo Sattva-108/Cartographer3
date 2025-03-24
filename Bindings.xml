@@ -1,0 +1,8 @@
+<Bindings>
+  <Binding name="CARTOGRAPHERTHREE_TOGGLEMAP" description="Toggle map" header="CARTOGRAPHERTHREE">
+    Cartographer3.ToggleMap()
+  </Binding>
+  <Binding name="CARTOGRAPHERTHREE_OPENALTERNATEMAP" description="Open map with alternate settings" header="CARTOGRAPHERTHREE">
+    Cartographer3.OpenAlternateMap()
+  </Binding>
+</Bindings>

@@ -1,0 +1,12 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd">
+
+<Script file="libs\LibStub\LibStub.lua"/>
+<Include file="libs\CallbackHandler-1.0\CallbackHandler-1.0.xml"/>
+<Include file="libs\LibGuildPositions-1.0\lib.xml"/>
+<Include file="libs\LibBabble-Zone-3.0\lib.xml"/>
+<Include file="libs\LibTourist-3.0\lib.xml"/>
+<Include file="libs\LibGuild-1.0\lib.xml"/>
+<Include file="libs\LibSimpleOptions-1.0\lib.xml"/>
+
+</Ui>

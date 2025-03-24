@@ -1,0 +1,42 @@
+## Interface: 30100
+## Notes: Addon to provide a much nicer map
+## Title: Cartographer 3.0 v0.11.2
+## Author: ckknight
+## DefaultState: enabled
+## LoadOnDemand: 0
+## SavedVariables: Cartographer3DB, Cartographer3_NewOverlaysDB
+## OptionalDeps: LibGuildPositions-1.0, LibBabble-Zone-3.0, LibTourist-3.0, LibGuild-1.0, LibSimpleOptions-1.0
+## X-Category: Map
+## X-eMail: ckknight AT gmail DOT com
+## X-Website: http://wow.curseforge.com/projects/cartographer3/
+## X-Donate: PayPal:ckknight AT gmail DOT com
+## Version: 3.0 v0.11.2
+## Date: 2009-08-05T01:46:36Z
+## X-Timestamp: 1249436796
+## X-Curse-Packaged-Version: v0.11.2
+## X-Curse-Project-Name: Cartographer 3.0
+## X-Curse-Project-ID: cartographer3
+## X-Curse-Repository-ID: wow/cartographer3/mainline
+
+embeds.xml
+
+Localization\load.xml
+
+Utils.lua
+Main.lua
+Constants.lua
+
+Options.lua
+
+InstanceData.lua
+OverlayData.lua
+TextureData.lua
+PlayerArrow.lua
+CorpsePOI.lua
+FlagPOIs.lua
+GroupMembers.lua
+GuildMembers.lua
+Landmarks.lua
+InstancePortalPOIs.lua
+
+modules.xml
