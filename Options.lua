@@ -68,7 +68,7 @@ LibSimpleOptions.AddOptionsPanel("Cartographer3", function(self)
 					editBox:SetText(url)
 					editBox:SetFocus()
 					editBox:HighlightText(0)
-					editBox:SetScript("OnTextChanged", function() StaticPopup_EditBoxOnTextChanged() end)
+					editBox:SetScript("OnTextChanged", StaticPopup_EditBoxOnTextChanged)
 
 					local button = _G[this:GetName() .. "Button2"]
 					button:ClearAllPoints()
@@ -104,7 +104,7 @@ LibSimpleOptions.AddOptionsPanel("Cartographer3", function(self)
 				makeURLFrame()
 			end
 		
-			url = "http://wow.curseforge.com/projects/cartographer3/tickets/"
+			url = "https://github.com/Sattva-108/Cartographer3/issues"
 
 			StaticPopup_Show("CARTOGRAPHER3_SHOW_URL")
 		end
